@@ -1,0 +1,70 @@
+body
+	font-family: 'Lato', sans-serif
+ overflow-x: hidden
+
+@import 'technology'
+@import 'solution'
+@import 'login-form'
+
+.header-block
+	margin-top: 28px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	&_logo
+	&_btn
+		display: flex
+		width: 178px
+		height: 42px
+		border-radius: 21px
+		border: 1px solid #28225e
+		background: linear-gradient(120deg,#3498db,#8e44ad,#3498db)
+		background-size: 200%
+		outline: none
+		transition: 0.5s
+		box-shadow: 0 7px 14px #3498db
+		animation: pulse 4s infinite
+		align-items: center
+		justify-content: center
+		cursor: pointer
+		&:hover
+			background-position: right
+			animation: none
+			box-shadow: 0 0 0
+			
+	.btn
+		border: 0
+		outline: 0
+		background: none
+		color: #fff
+		&:hover
+			color: #fff
+
+.footer
+	display: flex
+	justify-content: space-around
+	padding: 40px 0 40px 0
+	background: linear-gradient(120deg,#3498db,#8e44ad,#3498db)
+	background-size: 200%
+	color: #fff
+	outline: none
+	transition: 0.5s
+	width: 100%
+	&:hover
+		background-position: right
+	img
+		cursor: pointer
+
+	@keyframes move
+	from
+		margin-left: -100px
+	to
+	opacity: 1
+	margin-left: 0
+.animate
+	animation-name: move
+	animation-duration: 1s
+
+@import 'media'
+	
+	

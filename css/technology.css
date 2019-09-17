@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  margin-top: 142px;
+  margin-bottom: 97px; }
+
+.technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 134px; }
+  .technology img {
+    width: 100%; }
+  .technology_title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px; }
+    .technology_title_left {
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin-bottom: 25px;
+      text-align: left;
+      margin-left: 33px; }
+  .technology_subtitle {
+    font-size: 14px;
+    font-weight: 400; }
+    .technology_subtitle_left {
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      margin-left: 33px; }
